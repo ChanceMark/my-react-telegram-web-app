@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: build
+    scripts:
+        build: npm run build
+        deploy: npm install
+    subdomain: my-react-telegram-web-app
+name: my-react-telegram-web-app
+region: us-east-1
+yamlVersion: 2
